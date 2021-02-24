@@ -1,0 +1,131 @@
+ main {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ /* global for main*/
+
+ .post {
+    border: solid 1px lightgrey;
+    width: 50%;
+    margin: 20px;
+    padding: 20px 15px;
+    box-shadow: 1px 1px 10px lightgray;
+
+}
+
+.btn {
+    width:fit-content;
+    padding: 10px 20px;
+    background-color: rgb(53, 178, 228);
+    color: white;
+    display: inline-block;
+}
+
+.btn:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+.avatar {
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    border-radius: 100px;
+}
+
+.name {
+    font-size: 20px;
+    border: solid 1px;
+    width: 80px;
+}
+
+.avatar-name {
+    border: solid 1px orange;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    max-width: 200px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.min {
+    float: right;
+    color: gray;
+}
+
+.clr {
+    clear: both;
+}
+
+hr {
+   height: 1px;
+   background-color: rgb(235, 230, 230);
+   border: none;
+}
+
+
+/* input post; for mobile make width less, around 85% */
+input {
+    width: 92% ;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* redo, not exactly as on example, form-? */
+input:focus{
+    outline-style:solid;
+    outline-width: 5px;
+    outline-color: lightsteelblue;
+    
+}
+
+/* post a (change url Eugene)*/
+.a {
+    background-image: url(https://avatars.githubusercontent.com/u/78428105?s=460&u=b17fc119518c3430431b7fa61a12b17cbc139ea5&v=4);
+}
+
+.img-a {
+    width: 48%;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;   
+}
+
+/* post b (change url Aizhana)*/
+.b {
+    border: solid 1px;
+    background-image: url(https://avatars.githubusercontent.com/u/78428105?s=460&u=b17fc119518c3430431b7fa61a12b17cbc139ea5&v=4);
+}
+
+/* post c (change url Eliza) */
+.c {
+    border: solid 1px;
+    background-image: url(https://avatars.githubusercontent.com/u/78428105?s=460&u=b17fc119518c3430431b7fa61a12b17cbc139ea5&v=4);
+}
+
+a {
+    color: black;
+}
+
+.img-c {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
