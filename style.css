@@ -1,0 +1,38 @@
+/* Navigation bar */
+nav{
+    display: flex;
+    color: white;
+    background-color: #199de5;
+    font-size: 1em;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    padding: 18px 25px;
+}
+nav a:hover{
+    color: black;
+    background-color: white;
+}
+nav a span{
+    margin-left: 15px;
+}
+nav .home{
+    background-color: #076490;
+}
+/* Navigation bar end */
+
+/* Media query */
+/* navigation bar */
+@media screen and (max-width: 568px){
+    .nav-links{
+        display: none;
+    }
+}
