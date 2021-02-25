@@ -1,3 +1,22 @@
+
+/* Footer styless */
+footer div{
+    padding: 15px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #199de5;
+}
+footer .developed{
+    padding: 0 20px;
+    font-size: 1em;
+    overflow: auto;
+    background-color: #076490;
+}
+footer a{
+    color: inherit;
+}
+/* Footer end */
+
 body{
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
@@ -295,7 +314,6 @@ a {
     color: black;
 }
 /*MAIN END*/
-
 
 
 
