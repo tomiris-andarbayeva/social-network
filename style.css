@@ -181,3 +181,79 @@ span.sx{
     cursor: pointer;
 }
 /* LEFT ASIDE End */
+
+
+
+/* RIGHT SIDE START */
+.right {
+    float: left;
+    width: 20%;
+}
+.block {
+    background: #ffffff;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.block-first p, .block-second p {
+    padding-bottom: 15px;
+}
+.page-one {
+    font-weight: bold;
+    padding: 15px;
+}
+.btn-info {
+    background: #dfe5e8;
+    width: 100%;
+    padding: 8px 16px;
+    border: none;
+    font-size: 15px;
+}
+.btn-info:hover {
+    background: #cccccc;
+    cursor: pointer;
+}
+.block-second img {
+    width: 50%;
+    margin: auto;
+}
+.request-btns {
+    display: flex;
+    width: 100%;
+}
+
+.btn-accept:hover, .btn-reject:hover {
+    background: #dfe5e8;
+    cursor: pointer;
+}
+.btn-accept {
+    background: #94cf96;
+    color: #ffffff;
+    width: 50%;
+    border: none;
+    padding: 9px;
+    text-decoration: none;
+}
+.btn-reject {
+    background: #f88e86;
+    color: #ffffff;
+    width: 50%;
+    border: none;
+    padding: 9px;
+    text-decoration: none;
+}
+.btn-accept:hover i, .btn-reject:hover i {
+    color: #666666;
+}
+.block-third p {
+    vertical-align: middle;
+    padding: 10px;
+}
+.block-fourth i {
+    padding: 25px;
+    font-size: 30px;
+}
+/* RIGHT SIDE END */
+
