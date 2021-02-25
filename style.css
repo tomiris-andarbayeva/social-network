@@ -184,6 +184,124 @@ span.sx{
 
 
 
+
+
+
+
+
+
+/* MAIN STARTS*/
+
+ main {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ 
+ /* input post*/
+input {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+ .post {
+    border: solid 1px lightgrey;
+    width: 50%;
+    margin: 20px;
+    padding: 20px 15px;
+    box-shadow: 1px 1px 10px lightgray;
+}
+
+.button-wrapper button{
+    width:fit-content;
+    padding: 10px 20px;
+    background-color: rgb(53, 178, 228);
+    color: white;
+    display: inline-block;
+    border:0px;
+    outline: none;
+    cursor:pointer;
+}
+
+.button-wrapper button:hover{
+    background-color: lightgray;
+    color: black;
+    
+}
+
+/* making avatar photos round and fixed size */
+.avatar {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar img{
+    width: 100%;
+}
+
+.name {
+    font-size: 20px;
+    width: 80px;
+}
+
+/* making avatar photo and name in the left corner using float */
+.avatar-name {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    max-width: 200px;
+    float: left;
+    margin-bottom: 30px;
+}
+ 
+/* making minutes in the right corner using float */
+.min {
+    float: right;
+    color: gray;
+}
+
+.clr {
+    clear: both;
+}
+
+hr {
+   height: 1px;
+   background-color: rgb(235, 230, 230);
+   border: none;
+}
+
+
+/*styling photos for posts using flex */
+.post-photo-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.post-photo {
+   flex: 1;
+}
+
+.post-photo img {
+    width: 100%;
+    
+}
+
+/* post c*/
+a {
+    color: black;
+}
+/*MAIN END*/
+
+
+
+
+
+
+
 /* RIGHT SIDE START */
 .right {
     float: left;
@@ -256,4 +374,5 @@ span.sx{
     font-size: 30px;
 }
 /* RIGHT SIDE END */
+
 
