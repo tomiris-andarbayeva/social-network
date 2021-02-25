@@ -20,17 +20,21 @@ input {
     box-shadow: 1px 1px 10px lightgray;
 }
 
-.btn {
+.button-wrapper button{
     width:fit-content;
     padding: 10px 20px;
     background-color: rgb(53, 178, 228);
     color: white;
     display: inline-block;
+    border:0px;
+    outline: none;
+    cursor:pointer;
 }
 
-.btn:hover{
+.button-wrapper button:hover{
     background-color: lightgray;
     color: black;
+    
 }
 
 /* making avatar photos round and fixed size */
