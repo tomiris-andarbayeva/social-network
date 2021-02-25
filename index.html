@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <title>Social</title>
 </head>
+
 <body>
     <!-- Navigation bar -->
     <nav>
@@ -22,25 +24,205 @@
     <div class="container">
         <!-- LEFT SIDE -->
         <aside class="left">
-            <div class="profile">
 
-            </div>
-            
-        </aside>
+            <section class="profile-block">
+                <p>My Profile</p>
+                <div class="profile-photo">
+                    <img src=".jpg" alt="profile picture">
+                </div>
+                <hr>
+                <div class="personal-info">
+                    <ul>
+                        <li>Software Engineer</li>
+                        <li>Seattle, WA</li>
+                        <li>April 10</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section-block">
+                <div class="groups box">
+                    <div class="title">My Groups</div>
+                    <div class="content-block">Some text...</div>
+                </div>
+                <div class="events box">
+                    <div class="title">My Events</div>
+                    <div class="content-block">Some other text...</div>
+                </div>
+                <div class="photos box">
+                    <div class="title">My Photos</div>
+                    <div class="content-block">
+                        <div class="grid-photos">
+                            <div class="image-wrap">
+                                <img src="https://source.unsplash.com/1600x900/?nature,mountains" alt="">
+                            </div>
+                            <div class="image-wrap">
+                                <img src="https://source.unsplash.com/1600x900/?nature,forest" alt="">
+                            </div>
+                            <div class="image-wrap">
+                                <img src="https://source.unsplash.com/1600x900/?nature,nature" alt="">
+                            </div>
+                            <div class="image-wrap">
+                                <img src="https://source.unsplash.com/1600x900/?nature,snow" alt="">
+                            </div>
+                            <div class="image-wrap">
+                                <img src="https://source.unsplash.com/1600x900/?nature,lights" alt="">
+                            </div>
+                            <div class="image-wrap">
+                                <img src="https://source.unsplash.com/1600x900/?nature,sunsets" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="interests">
+                <p>Interests</p>
+                <div class="content-block">
+                    <span class="prm">News</span>
+                    <span class="prm">Seytech</span>
+                    <span class="scd">Algos</span>
+                    <span class="scd">Games</span>
+                    <span class="scd">Friends</span>
+                    <span class="trd">Food</span>
+                    <span class="trd">Design</span>
+                    <span class="frs">Art</span>
+                    <span class="sx">Photos</span>
+                </div>
+            </section>
+            <section class="find-out-who">
+                <p class="title">Hey!</p>
+                <p>People are looking at your profile. Find out who.</p>
+                <div class="close-btn">x</div>
+            </section>
+
+            </aside>
+
         <!-- LEFT SIDE end -->
-        
+      
+      
+      
+      
+      
+
         <!-- MAIN SECTION -->
         <main>
-            <div class="tomiris"></div>
-            <div class="second-tomiris"></div>
-        </main>
-        <!-- MAIN SECTION -->
+            <!-- input post -->
+            <div class="post">
+                <input type="text" value="Status: Feeling Blue" />
+                <div class="button-wrapper"><button><i class="fas fa-pencil-alt"></i> Post</button></div>
+            </div>
+
+
+            <!-- post a -->
+            <div class="post">
+                <div class="avatar-name">
+                    <div class="avatar"><img src="./media/Eugene.jpg" alt=""></div>
+                    <div class="name">Eugene</div>
+                </div>
+                <div class="min">1 min</div>
+                <div class="clr"></div>
+                <hr />
+                <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming
+                    technologies. Contact us.</p>
+                <div class="post-photo-wrapper">
+                    <div class="post-photo"><img src="./media/seytech-merch1.png" alt="Seytech Merch"></div>
+                    <div class="post-photo"><img src="./media/seytech-media2.jpg" alt="coding mind"></div>
+                </div>
+                <div class="button-wrapper">
+                    <button><i class="fas fa-thumbs-up"></i> Like</button>
+                    <button><i class="fas fa-comment"></i> Comment</button>
+                </div>
+
+            </div>
+
+
+            <!-- post b -->
+            <div class="post">
+                <div class="avatar-name">
+                    <div class="avatar"><img src="./media/Aizhana.jpeg" alt=""></div>
+                    <div class="name">Aizhana</div>
+                </div>
+                <div class="min">16 min</div>
+                <div class="clr"></div>
+                <hr />
+                <p>Join us at the new and improved Microsoft! We are building the Developer Relations dream team in
+                    Azure engineering. Our global team is...</p>
+                <div class="button-wrapper">
+                    <button><i class="fas fa-thumbs-up"></i> Like</button>
+                    <button><i class="fas fa-comment"></i> Comment</button>
+                </div>
+    </div>
+
+    <!-- post-c -->
+    <div class="post">
+        <div class="avatar-name">
+            <div class="avatar"><img src="./media/Eliza.png" alt=""></div>
+            <div class="name">Eliza</div>
+        </div>
+        <div class="min">32 min</div>
+        <div class="clr"></div>
+        <hr />
+        <p>Have you seen this?</p>
+        <div class="post-photo-wrapper">
+            <div class="post-photo"><img src="./media/photo3.png" alt="Development"></div>
+        </div>
+        <p>Coding bootcamp reviews, rankings, and resources to help students find what they need.<br /><a
+                target="_blank" href="https://www.seytech.co/">Bootcamp Venue</a></p>
+                <div class="button-wrapper">
+                    <button><i class="fas fa-thumbs-up"></i> Like</button>
+                    <button><i class="fas fa-comment"></i> Comment</button>
+                </div>
+    </div>
+    </div>
+
+
+    </main>
+    <!-- MAIN SECTION end -->
+
+    
+  
+  
 
         <!-- RIGHT SIDE -->
         <aside class="right">
-            <p>test</p>
+            <div class="block-first">
+                <div class="block">
+                    <p>Upcoming Events:</p>
+                    <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/event.png"
+                        alt="React.JS">
+                    <p class="page-one">React Course</p>
+                    <p>Friday 15:00</p>
+                    <button class="btn-info">Info</button>
+                </div>
+            </div>
+            <div class="block-second">
+                <div class="block">
+                    <p>Friend Request</p>
+                    <img src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg"
+                        alt="friend">
+                    <p>Kylie Hard</p>
+                    <div class="request-btns">
+                        <button class="btn-accept">
+                                <i class="fas fa-check"></i>
+                        </button>
+                        <button class="btn-reject">
+                                <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="block-third">
+                <div class="block">
+                    <p class="center">ADS</p>
+                </div>
+            </div>
+            <div class="block-fourth">
+                <div class="block">
+                    <i class="fas fa-bug"></i>
+                </div>
+            </div>
         </aside>
         <!-- RIGHT SIDE end -->
+
     </div>
 
     <!-- FOOOTER -->
@@ -52,7 +234,7 @@
             <p>Powered by <a href="#">team N3</a></p>
     </footer>
     <!-- FOOTER end -->
-    
+
 
 
 
@@ -62,4 +244,5 @@
 
     <script src="https://kit.fontawesome.com/21b0c35351.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
