@@ -1,22 +1,48 @@
 
-/* Footer styless */
-footer div{
-    padding: 15px 20px;
-    font-size: 1.2em;
+
+/* Navigation bar */
+nav{
+    display: flex;
     color: white;
     background-color: #199de5;
-}
-footer .developed{
-    padding: 0 20px;
     font-size: 1em;
-    overflow: auto;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    padding: 18px 25px;
+}
+nav a:hover{
+    color: black;
+    background-color: white;
+}
+nav a span{
+    margin-left: 15px;
+}
+nav .home{
     background-color: #076490;
 }
-footer a{
-    color: inherit;
-}
-/* Footer end */
+/* Navigation bar end */
 
+/* Media query */
+/* navigation bar */
+@media screen and (max-width: 568px){
+    .nav-links{
+        display: none;
+    }
+}
+
+
+
+
+/* GLOBAL STUFF */
 body{
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
@@ -43,19 +69,6 @@ section {
     margin-right: 20px;
 }
 
-/* NAVIGATION BAR */
-nav{
-    position: fixed;
-    display: flex;
-    top: 0;
-    width: 100%;
-    background-color: rgb(29, 133, 252);
-    z-index: 10;
-}
-nav ul{
-    list-style-type: none;
-    display: flex;
-}
 
 .container{
     margin: auto;
@@ -79,6 +92,10 @@ aside.left{
 section{
     background-color: white;
 }
+/* GLOBAL END */
+
+
+
 
 /* LEFT ASIDE STYLES */
 aside section{
@@ -200,9 +217,6 @@ span.sx{
     cursor: pointer;
 }
 /* LEFT ASIDE End */
-
-
-
 
 
 
@@ -392,5 +406,28 @@ a {
     font-size: 30px;
 }
 /* RIGHT SIDE END */
+
+
+
+
+/* Footer styless */ 
+footer div{
+    padding: 15px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #199de5;
+}
+footer .developed{
+    padding: 0 20px;
+    font-size: 1em;
+    overflow: auto;
+    background-color: #076490;
+}
+footer a{
+    color: inherit;
+}
+/* Footer end */
+
+
 
 
