@@ -98,101 +98,101 @@ section{
 
 
 /* LEFT ASIDE STYLES */
-aside section{
+aside.left section{
     margin-bottom: 20px;
 }
 /* profile-block style */
-.profile-block{
+aside.left .profile-block{
     background-color: white;
     padding: 25px;
 }
-.profile-photo {
+aside.left .profile-photo {
     margin-bottom: 20px;
 }
-.profile-photo{
+aside.left .profile-photo{
     text-align: center;
 }
-.profile-photo img{
+aside.left .profile-photo img{
     width: 100px;
     border-radius: 60%;}
-.personal-info{
+aside.left .personal-info{
     font-size: 0.8em;
 }
-.personal-info i{
+aside.left .personal-info i{
     color: gray;
 }
-.personal-info ul{
+aside.left .personal-info ul{
     margin-top: 15px;
     list-style-type: none;
 }
-.personal-info li + li{
+aside.left .personal-info li + li{
     margin-top: 20px;
 }
 
 /* section-block styles */
-.box{
+aside.left .box{
     font-size: 0.8em;
 }
-.box .title{
+aside.left .box .title{
     background-color: rgb(29, 133, 252);
     color: white;
     padding: 10px 20px;
 }
-.box .title:hover{
+aside.left .box .title:hover{
     color: black;
     background-color: lightgray;
     cursor: pointer;
 }
-.box .content-block{
+aside.left .box .content-block{
     padding: 12px 20px;
 }
 
 /* photos style */
-.grid-photos{
+aside.left .grid-photos{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 17px;
 }   
 /* interest  style */
-.interests{
+aside.left .interests{
     padding: 20px;
     font-size: 0.8em;
 }
-.interests p{
+aside.left .interests p{
     margin-bottom: 20px;
 }
-.interests span{
+aside.left .interests span{
     display: inline-block;
     padding: 2px 5px;
     color: white;
     font-size: 0.9em;
     margin-top: 3px;
 }
-span.prm{
+aside.left span.prm{
     background-color: rgb(36, 87, 182);
 }
-span.scd{
+aside.left span.scd{
     background-color:  rgb(16, 132, 240);
 }
-span.trd{
+aside.left span.trd{
     background-color: rgb(156, 156, 156);
     color: black;
 }
-span.frs{
+aside.left span.frs{
     background-color: lightgray;
     color: black;
 }
-span.fvs{
+aside.left span.fvs{
     background-color: rgb(205, 212, 212);
     color: black;
 }
-span.sx{
+aside.left span.sx{
     background-color: rgb(214, 231, 236);
     color: black;
 }
 
 /* find-out-who style */
-.find-out-who{
+aside.left .find-out-who{
     position: relative;
     padding: 20px;
     font-size: 0.8em;
@@ -201,18 +201,18 @@ span.sx{
     border: 1px solid rgb(170, 177, 182);
     overflow: hidden;
 }
-.find-out-who .title{
+aside.left .find-out-who .title{
     font-weight: 900;
     margin-bottom: 10px;
 }
-.close-btn{
+aside.left .close-btn{
     position: absolute;
     padding: 5px 15px;
     top: 0;
     right: 0;
     background-color: rgb(159, 178, 187);
 }
-.close-btn:hover{
+aside.left .close-btn:hover{
     background-color: lightgray;
     cursor: pointer;
 }
