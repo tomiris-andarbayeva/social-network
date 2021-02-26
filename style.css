@@ -6,6 +6,10 @@ nav{
     color: white;
     background-color: #199de5;
     font-size: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
 }
 .nav-links{
     display: flex;
@@ -74,6 +78,7 @@ hr{
     max-width: 1300px;
     padding: 0px 15px;
     margin: auto;
+    margin-top: 80px;
 }
 
 aside.left{
