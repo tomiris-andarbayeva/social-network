@@ -335,11 +335,11 @@ a {
 
 
 /* RIGHT SIDE START */
-.right {
+aside.right {
     float: left;
     width: 20%;
 }
-.block {
+aside.right .block {
     background: #ffffff;
     border-radius: 4px;
     margin-bottom: 20px;
@@ -347,38 +347,38 @@ a {
     padding: 20px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
-.block-first p, .block-second p {
+aside.right .block-first p, .block-second p {
     padding-bottom: 15px;
 }
-.page-one {
+aside.right .page-one {
     font-weight: bold;
     padding: 15px;
 }
-.btn-info {
+aside.right .btn-info {
     background: #dfe5e8;
     width: 100%;
     padding: 8px 16px;
     border: none;
     font-size: 15px;
 }
-.btn-info:hover {
+aside.right .btn-info:hover {
     background: #cccccc;
     cursor: pointer;
 }
-.block-second img {
+aside.right .block-second img {
     width: 50%;
     margin: auto;
 }
-.request-btns {
+aside.right .request-btns {
     display: flex;
     width: 100%;
 }
 
-.btn-accept:hover, .btn-reject:hover {
+aside.right .btn-accept:hover, aside.right .btn-reject:hover {
     background: #dfe5e8;
     cursor: pointer;
 }
-.btn-accept {
+aside.right .btn-accept {
     background: #94cf96;
     color: #ffffff;
     width: 50%;
@@ -386,7 +386,7 @@ a {
     padding: 9px;
     text-decoration: none;
 }
-.btn-reject {
+aside.right .btn-reject {
     background: #f88e86;
     color: #ffffff;
     width: 50%;
@@ -394,14 +394,14 @@ a {
     padding: 9px;
     text-decoration: none;
 }
-.btn-accept:hover i, .btn-reject:hover i {
+aside.right .btn-accept:hover i, aside.right .btn-reject:hover i {
     color: #666666;
 }
-.block-third p {
+aside.right .block-third p {
     vertical-align: middle;
     padding: 10px;
 }
-.block-fourth i {
+aside.right .block-fourth i {
     padding: 25px;
     font-size: 30px;
 }
