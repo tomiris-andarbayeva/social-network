@@ -73,6 +73,7 @@ hr{
 
 
 
+
 /* LAYOUT */
 .container{
     max-width: 1300px;
@@ -120,15 +121,28 @@ aside.left .profile-block{
     background-color: white;
     padding: 25px;
 }
-aside.left .profile-photo {
-    margin-bottom: 20px;
+
+aside.left .profile-block p{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 15px;
 }
+
+
 aside.left .profile-photo{
     text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 20px;
 }
+
 aside.left .profile-photo img{
-    width: 100px;
-    border-radius: 60%;}
+    width: 100%;
+    }
+
 aside.left .personal-info{
     font-size: 0.8em;
 }
@@ -159,6 +173,11 @@ aside.left .box .title:hover{
 }
 aside.left .box .content-block{
     padding: 12px 20px;
+}
+
+aside.left .fas{
+    margin-right: 20px;
+    color: rgb(249, 245, 245);
 }
 
 /* photos style */
@@ -430,16 +449,16 @@ aside.right .block-fourth i {
 
 
 /* Footer styless */ 
-footer div{
-    padding: 15px 20px;
+footer .content{
+    padding: 25px 20px;
     font-size: 1.2em;
     color: white;
     background-color: #199de5;
 }
 footer .developed{
-    padding: 0 20px;
-    font-size: 1em;
     overflow: auto;
+    padding: 15px 20px;
+    color: white;
     background-color: #076490;
 }
 footer a{
