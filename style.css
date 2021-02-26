@@ -231,7 +231,7 @@ aside.left .close-btn:hover{
  
  
  /* input post*/
-input {
+ main input {
     width: 100%;
     display: block;
     box-sizing: border-box;
@@ -239,7 +239,7 @@ input {
     margin-bottom: 20px;
 }
 
- .post {
+ main .post {
     border: solid 1px lightgrey;
     width: 50%;
     margin: 20px;
@@ -247,7 +247,7 @@ input {
     box-shadow: 1px 1px 10px lightgray;
 }
 
-.button-wrapper button{
+main .button-wrapper button{
     width:fit-content;
     padding: 10px 20px;
     background-color: rgb(53, 178, 228);
@@ -258,31 +258,31 @@ input {
     cursor:pointer;
 }
 
-.button-wrapper button:hover{
+main .button-wrapper button:hover{
     background-color: lightgray;
     color: black;
     
 }
 
 /* making avatar photos round and fixed size */
-.avatar {
+main .avatar {
     height: 90px;
     width: 90px;
     border-radius: 50%;
     overflow: hidden;
 }
 
-.avatar img{
+main .avatar img{
     width: 100%;
 }
 
-.name {
+main .name {
     font-size: 20px;
     width: 80px;
 }
 
 /* making avatar photo and name in the left corner using float */
-.avatar-name {
+main .avatar-name {
     display: flex;
     align-items: center;
     column-gap: 15px;
@@ -292,16 +292,16 @@ input {
 }
  
 /* making minutes in the right corner using float */
-.min {
+main .min {
     float: right;
     color: gray;
 }
 
-.clr {
+main .clr {
     clear: both;
 }
 
-hr {
+main hr {
    height: 1px;
    background-color: rgb(235, 230, 230);
    border: none;
@@ -309,22 +309,22 @@ hr {
 
 
 /*styling photos for posts using flex */
-.post-photo-wrapper {
+main .post-photo-wrapper {
     display: flex;
     gap: 10px;
 }
 
-.post-photo {
+main .post-photo {
    flex: 1;
 }
 
-.post-photo img {
+main .post-photo img {
     width: 100%;
     
 }
 
 /* post c*/
-a {
+main a {
     color: black;
 }
 /*MAIN END*/
