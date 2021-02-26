@@ -6,6 +6,10 @@ nav{
     color: white;
     background-color: #199de5;
     font-size: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
 }
 .nav-links{
     display: flex;
@@ -65,22 +69,33 @@ hr{
 .clearfix{
     clear: both;
 }
-section {
-    margin-right: 20px;
-}
 
 
+
+
+
+/* LAYOUT */
 .container{
+    max-width: 1300px;
+    padding: 0px 15px;
     margin: auto;
-    margin-top: 70px;
-    max-width: 1200px;
+    margin-top: 80px;
 }
 
-aside, main{
+aside.left{
+    width: 30%;
     float: left;
 }
-aside.left{
-    width: 35%;
+
+main {
+    width: 50%;
+    float: left;
+}
+
+aside.right{
+    width: 20%;
+    float: left;
+
 }
 
 .profile-block, .interests, section{
@@ -106,35 +121,75 @@ aside.left .profile-block{
     background-color: white;
     padding: 25px;
 }
-aside.left .profile-photo {
-    margin-bottom: 20px;
+
+aside.left .profile-block p{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 15px;
 }
+
 aside.left .profile-photo{
     text-align: center;
+    max-width: 200px; 
+    min-width: 100px;
+    width: 70%;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 20px;
+    
 }
+
 aside.left .profile-photo img{
-    width: 100px;
-    border-radius: 60%;}
+    width: 100%;
+    display: block;
+    }
+
 aside.left .personal-info{
-    font-size: 0.8em;
+    font-size: 1em;
 }
 aside.left .personal-info i{
     color: gray;
+    
 }
 aside.left .personal-info ul{
     margin-top: 15px;
     list-style-type: none;
+
 }
 aside.left .personal-info li + li{
     margin-top: 20px;
 }
+
+aside.left .content-block ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+aside.left .content-block ul li i{
+    color: black;
+    font-size: 1em;
+    margin-right:5px;
+}
+
+aside.left .content-block ul li {
+    list-style-type: none;
+    
+}
+
+aside.left .events a{
+    text-decoration: underline !important;
+}
+
+
 
 /* section-block styles */
 aside.left .box{
     font-size: 0.8em;
 }
 aside.left .box .title{
-    background-color: rgb(29, 133, 252);
+    background-color: #199de5;;
     color: white;
     padding: 10px 20px;
 }
@@ -145,6 +200,11 @@ aside.left .box .title:hover{
 }
 aside.left .box .content-block{
     padding: 12px 20px;
+}
+
+aside.left .fas{
+    margin-right: 20px;
+    color: rgb(249, 245, 245);
 }
 
 /* photos style */
@@ -172,7 +232,7 @@ aside.left span.prm{
     background-color: rgb(36, 87, 182);
 }
 aside.left span.scd{
-    background-color:  rgb(16, 132, 240);
+    background-color:  #199de5;;
 }
 aside.left span.trd{
     background-color: rgb(156, 156, 156);
@@ -227,6 +287,8 @@ aside.left .close-btn:hover{
 
  main {
      font-family: Arial, Helvetica, sans-serif;
+     padding: 0px 15px;
+    
  }
  
  
@@ -241,8 +303,9 @@ aside.left .close-btn:hover{
 
  main .post {
     border: solid 1px lightgrey;
-    width: 50%;
-    margin: 20px;
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom: 20px;
     padding: 20px 15px;
     box-shadow: 1px 1px 10px lightgray;
 }
@@ -250,7 +313,7 @@ aside.left .close-btn:hover{
 main .button-wrapper button{
     width:fit-content;
     padding: 10px 20px;
-    background-color: rgb(53, 178, 228);
+    background-color: #199de5;;
     color: white;
     display: inline-block;
     border:0px;
@@ -279,6 +342,11 @@ main .avatar img{
 main .name {
     font-size: 20px;
     width: 80px;
+}
+
+main p{
+    margin: 20px 0px 15px;
+    font-size: 1em;
 }
 
 /* making avatar photo and name in the left corner using float */
@@ -335,10 +403,7 @@ main a {
 
 
 /* RIGHT SIDE START */
-aside.right {
-    float: left;
-    width: 20%;
-}
+
 aside.right .block {
     background: #ffffff;
     border-radius: 4px;
@@ -411,22 +476,61 @@ aside.right .block-fourth i {
 
 
 /* Footer styless */ 
-footer div{
-    padding: 15px 20px;
+footer .content{
+    padding: 25px 20px;
     font-size: 1.2em;
     color: white;
     background-color: #199de5;
 }
 footer .developed{
-    padding: 0 20px;
-    font-size: 1em;
     overflow: auto;
+    padding: 15px 20px;
+    color: white;
     background-color: #076490;
 }
 footer a{
     color: inherit;
 }
 /* Footer end */
+
+
+
+/* MEDIA QUERIES */
+/* navigation bar */
+@media screen and (max-width: 568px){
+    .nav-links{
+        display: none;
+    }
+
+    main, aside {
+        float: none !important;
+        width: 100% !important;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+    aside.left .grid-photos {
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 17px;
+    }
+
+    aside.left .find-out-who, aside.left .interests {
+        display: none;
+    }
+    
+    main{
+        margin-top: 40px;
+    }
+
+    main .post-photo-wrapper{
+        flex-direction: column;
+    }
+    
+    }
+
+
 
 
 
