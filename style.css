@@ -128,7 +128,6 @@ aside.left .profile-block p{
     margin-bottom: 15px;
 }
 
-
 aside.left .profile-photo{
     text-align: center;
     height: 200px;
@@ -144,18 +143,43 @@ aside.left .profile-photo img{
     }
 
 aside.left .personal-info{
-    font-size: 0.8em;
+    font-size: 1em;
 }
 aside.left .personal-info i{
     color: gray;
+    
 }
 aside.left .personal-info ul{
     margin-top: 15px;
     list-style-type: none;
+
 }
 aside.left .personal-info li + li{
     margin-top: 20px;
 }
+
+aside.left .content-block ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+aside.left .content-block ul li i{
+    color: black;
+    font-size: 1em;
+    margin-right:5px;
+}
+
+aside.left .content-block ul li {
+    list-style-type: none;
+    
+}
+
+aside.left .events a{
+    text-decoration: underline !important;
+}
+
+
 
 /* section-block styles */
 aside.left .box{
@@ -319,7 +343,7 @@ main .name {
 
 main p{
     margin: 20px 0px 15px;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 /* making avatar photo and name in the left corner using float */
@@ -467,5 +491,14 @@ footer a{
 /* Footer end */
 
 
+
+/* MEDIA QUERIES */
+/* navigation bar */
+@media screen and (max-width: 568px){
+    .nav-links{
+        display: none;
+    }
+
+}
 
 
