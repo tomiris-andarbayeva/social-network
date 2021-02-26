@@ -130,16 +130,19 @@ aside.left .profile-block p{
 
 aside.left .profile-photo{
     text-align: center;
-    height: 200px;
-    width: 200px;
+    max-width: 200px; 
+    min-width: 100px;
+    width: 70%;
     border-radius: 50%;
     overflow: hidden;
     margin: auto;
     margin-bottom: 20px;
+    
 }
 
 aside.left .profile-photo img{
     width: 100%;
+    display: block;
     }
 
 aside.left .personal-info{
@@ -499,6 +502,36 @@ footer a{
         display: none;
     }
 
-}
+    main, aside {
+        float: none !important;
+        width: 100% !important;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+    aside.left .grid-photos {
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 17px;
+    }
+
+    aside.left .find-out-who, aside.left .interests {
+        display: none;
+    }
+    
+    main{
+        margin-top: 40px;
+    }
+
+    main .post-photo-wrapper{
+        flex-direction: column;
+    }
+    
+    }
+
+
+
+
 
 
