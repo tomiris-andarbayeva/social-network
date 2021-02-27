@@ -1,1 +1,1 @@
-# Social Network Team 3
+# Social Network
