@@ -37,12 +37,6 @@ nav .home{
 
 /* Media query */
 /* navigation bar */
-@media screen and (max-width: 568px){
-    .nav-links{
-        display: none;
-    }
-}
-
 
 
 
@@ -71,9 +65,9 @@ hr{
 }
 
 
-
-
-
+.box{
+    box-shadow: 0 0 4px rgb(176, 184, 196);
+}
 /* LAYOUT */
 .container{
     max-width: 1300px;
@@ -101,9 +95,7 @@ aside.right{
 .profile-block, .interests, section{
     border-radius: 4px;
 }
-.profile-block, .section-block, .interests, section{
-    box-shadow: 0 0 4px rgb(189, 189, 189);
-}
+
 section{
     background-color: white;
 }
@@ -307,7 +299,6 @@ aside.left .close-btn:hover{
     background-color: white;
     margin-bottom: 20px;
     padding: 20px 15px;
-    box-shadow: 1px 1px 10px lightgray;
 }
 
 main .button-wrapper button{
@@ -410,7 +401,6 @@ aside.right .block {
     margin-bottom: 20px;
     text-align: center;
     padding: 20px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
 aside.right .block-first p, .block-second p {
     padding-bottom: 15px;
@@ -528,7 +518,7 @@ footer a{
         flex-direction: column;
     }
     
-    }
+}
 
 
 
